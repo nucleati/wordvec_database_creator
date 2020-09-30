@@ -29,4 +29,5 @@ RUN mkdir build
 WORKDIR /leveldb/build
 RUN cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .
 RUN make
-RUN make install```
+RUN make install
+```
